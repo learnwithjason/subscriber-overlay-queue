@@ -1,0 +1,15 @@
+.overlay {
+  border: 2px solid black;
+  border-radius: 0.25rem;
+  background-color: hotpink;
+  color: black;
+  margin: 2rem auto;
+  max-width: 400px;
+  opacity: 0;
+  text-align: center;
+  transition: opacity 500ms linear;
+}
+
+.visible {
+  opacity: 1;
+}
